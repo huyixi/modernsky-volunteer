@@ -62,6 +62,8 @@ export default defineConfig<"vite">(async (merge, { command, mode }) => {
           },
         },
       },
+      // 为了解决 taro-ui 的样式无法正确引入的问题
+      esnextModules: ["taro-ui"],
     },
     rn: {
       appName: "taroDemo",

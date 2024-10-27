@@ -19,7 +19,7 @@
     "build:qq": "taro build --type qq",
     "build:jd": "taro build --type jd",
     "build:harmony-hybrid": "taro build --type harmony-hybrid",
-    "dev": "npm run dev:h5",
+    "dev": "npm run build:h5 -- --watch",
     "dev:weapp": "npm run build:weapp -- --watch",
     "dev:swan": "npm run build:swan -- --watch",
     "dev:alipay": "npm run build:alipay -- --watch",
@@ -34,7 +34,7 @@
     "defaults and fully supports es6-module",
     "maintained node versions"
   ],
-  "author": "",
+  "author": "huyixi",
   "dependencies": {
     "@babel/runtime": "^7.24.4",
     "@tarojs/components": "4.0.6",
